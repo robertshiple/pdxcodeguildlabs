@@ -79,7 +79,7 @@ def message(cmd):
     auth_token = TWIL_TOKEN
     client = Client(account_sid, auth_token)
 
-    message = client.api.account.messages.create(to="+18456331959",
+    message = client.api.account.messages.create(to="+19168380995",
                                              from_="+14243512633",
                                              body="HELLO THIS IS PHONE TRON.",
                                              media_url=[
